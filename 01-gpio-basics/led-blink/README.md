@@ -8,15 +8,15 @@ Learn the basics of GPIO output control by turning an external LED on and off.
 
 ## Hardware Components
 
-- ESP32-S3
+- ESP32-S3-Zero
 - Breadboard
 - 1x Red LED
-- 220Ω resistor
+- 330Ω resistor
 - Jumper wires
 
 ## Circuit
 
-The LED is connected to GPIO 2 through a 220Ω current-limiting resistor. The ESP32-S3 and LED share a common GND connection.
+The LED is connected to GPIO 2 through a 330Ω current-limiting resistor. The ESP32-S3 and LED share a common GND connection.
 
 See [`diagram.json`](./diagram.json) for the Wokwi circuit configuration.
 
@@ -40,7 +40,8 @@ The experiment uses the ESP-IDF GPIO driver and FreeRTOS task delay functionalit
 - ESP-IDF
 - C
 - Wokwi Simulator
+- Physical ESP32-S3 Hardware
 
 ## Status
 
-Completed — Wokwi simulation.
+Completed — Tested in Wokwi and on physical ESP32-S3 hardware.
