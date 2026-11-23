@@ -20,12 +20,32 @@ This repository contains small experiments, circuit simulations, code examples, 
 - **Language:** C
 - **Simulator:** Wokwi
 - **IDE:** Visual Studio Code
+- **Hardware:** ESP32-S3-Zero, breadboard, and electronic components
+
+## Repository Structure
+
+```text
+esp32-learning-lab/
+├── 01-gpio-basics/
+│   ├── led-blink/
+│   └── button-input/
+├── 02-input-devices/
+│   ├── button-debounce/
+│   └── rotary-encoder/
+├── 03-display/
+│   ├── spi-basics/
+│   └── gc9a01-tests/
+├── 04-integration/
+│   └── menu-system/
+└── 05-advanced/
+    └── ble-experiments/
+```
 
 ## Progress
 
 | Topic | Status |
 |---|---|
-| GPIO Output — LED Blink | Completed (Wokwi) |
+| GPIO Output — LED Blink | Completed (Wokwi & Physical Hardware) |
 | Button Input | Planned |
 | Button Debouncing | Planned |
 | Rotary Encoder | Planned |
@@ -38,4 +58,4 @@ This repository contains small experiments, circuit simulations, code examples, 
 
 This repository serves as a practical learning log and a collection of experiments supporting my broader embedded systems projects.
 
-Experiments will gradually move from simulation to physical hardware as development progresses.
+Experiments begin in simulation and gradually move to physical hardware testing.
